@@ -39,7 +39,7 @@ class _SplashScreenState extends State<MySplashScreen> {
     if (newUser == false) {
       // ignore: use_build_context_synchronously
       Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) => const Home()));
+          context, MaterialPageRoute(builder: (context) => Home()));
     } else {
       // ignore: use_build_context_synchronously
       Navigator.pushReplacement(
